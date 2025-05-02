@@ -3,7 +3,7 @@
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: 'Hi, I am May.Welcome to read my story', // 欢迎文字，留空则不启用
+    PROXIO_WELCOME_TEXT: '哈哈，生日快乐！🎂🎂🎂', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
@@ -12,8 +12,8 @@ const CONFIG = {
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: '我的领英', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
-        'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+        'https://www.linkedin.com/in/yumei-fu-0232a3286/', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
@@ -40,27 +40,27 @@ const CONFIG = {
     // 特性区块
     PROXIO_FEATURE_ENABLE: true, // 特性区块开关
     PROXIO_FEATURE_TITLE: '为什么选我',
-    PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
+    PROXIO_FEATURE_TEXT_1: '我能用文字放大您的价值',
     PROXIO_FEATURE_TEXT_2:
-        '丰富的案例经验，专业的技术服务，优质的沟通效率',
+        '专业的文字，丰富的经验，优质的沟通',
 
     // 特性1
     PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
     PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
-    PROXIO_FEATURE_1_TITLE_1: '高效工作流程',
-    PROXIO_FEATURE_1_TEXT_1: '精简的设计流程确保快速交付，在紧迫的工期下仍能保证品质与细节不打折扣。',
+    PROXIO_FEATURE_1_TITLE_1: '细节把控',
+    PROXIO_FEATURE_1_TEXT_1: '精益求精，字斟句酌，确保文稿令人过目不忘',
 
     PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
     PROXIO_FEATURE_2_ICON_IMG_URL: '', 
     PROXIO_FEATURE_2_TITLE_1: '协作式流程',
-    PROXIO_FEATURE_2_TEXT_1: '与你紧密合作，融合反馈意见，打造超越预期的设计',
+    PROXIO_FEATURE_2_TEXT_1: '与你紧密合作，融合反馈意见，完成超越预期的作品',
 
     PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
     PROXIO_FEATURE_2_ICON_IMG_URL: '',
-    PROXIO_FEATURE_3_TITLE_1: '细节把控',
-    PROXIO_FEATURE_3_TEXT_1: '精益求精雕琢每个元素，确保成品精致统一，令人过目难忘',
+    PROXIO_FEATURE_3_TITLE_1: '高效工作流程',
+    PROXIO_FEATURE_3_TEXT_1: '确保快速交付，在紧迫的工期下仍能保证产出质量与细节不打折扣。',
 
-    PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
+    PROXIO_FEATURE_BUTTON_TEXT: '', // 按钮文字
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
     // 首页生涯区块
@@ -188,42 +188,38 @@ const CONFIG = {
 
     // 页脚三列菜单组
     // 页脚菜单
-    PROXIO_FOOTER_LINKS: [
-        {
-            name: '友情链接',
-            menus: [
-                {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
-                },
-                {
-                    title: 'NotionNext',
-                    href: 'https://www.tangly1024.com'
-                }
-            ]
-        },
-        {
-            name: '开发者',
-            menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-                {
-                    title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-                },
-                {
-                    title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-                },
-                {
-                    title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
-                },
-                {
-                    title: '关于作者',
-                    href: 'https://yumeifu.com/about'
-                }
-            ]
-        }],
+    // PROXIO_FOOTER_LINKS: [
+    //    {
+    //        name: '友情链接',
+    //        menus: [
+    //            {
+    //                title: '行走无声',
+    //                href: 'https://hermitong.com'
+    //            },
+    //        ]
+    //    },
+    //    {
+    //        name: '关于作者',
+    //        menus: [
+    //            { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+    //            {
+    //               title: '开发帮助',
+    //                href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+    //            },
+    //            {
+    //                title: '功能反馈',
+    //                href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+    //            },
+    //            {
+    //                title: '技术讨论',
+    //                href: 'https://github.com/tangly1024/NotionNext/discussions'
+    //            },
+    //            {
+    //                title: '关于作者',
+    //               href: 'https://yumeifu.com/about'
+    //            }
+    //        ]
+    //    }],
 
     PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 

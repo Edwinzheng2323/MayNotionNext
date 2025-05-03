@@ -162,7 +162,7 @@ const CONFIG = {
     PROXIO_ABOUT_TEXT_1: '独立撰稿人',
     PROXIO_ABOUT_TEXT_2:
         '前记者、编辑，曾任职新华社《环球人物》、中新经纬',
-    PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
+    PROXIO_ABOUT_PHOTO_URL: '/public/images/themes-preview/aboutme.jpg',
     PROXIO_ABOUT_KEY_1: '经验年限',
     PROXIO_ABOUT_VAL_1: '5年+',
     PROXIO_ABOUT_KEY_2: '客户',

@@ -72,8 +72,8 @@ const CONFIG = {
     // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
     PROXIO_CAREERS: [
         { title: '自由撰稿人', bio: '2023-至今', text: '自由记者、专栏作家、商业文稿撰稿人' },
-        { title: '记者、编辑', bio: '2020-2023', text: '人民日报旗下《环球人物》杂志' },
-        { title: '记者、编辑', bio: '2016-2020', text: '中新经纬' }
+        { title: '记者、编辑', bio: '2022-2023', text: '人民日报旗下《环球人物》杂志' },
+        { title: '记者、编辑', bio: '2019-2022', text: '中新经纬' }
     ],
 
     // 首页用户测评区块
@@ -161,7 +161,7 @@ const CONFIG = {
     PROXIO_ABOUT_TITLE: '关于我',
     PROXIO_ABOUT_TEXT_1: '独立撰稿人',
     PROXIO_ABOUT_TEXT_2:
-        '前记者、编辑，曾任职新华社《环球人物》、中新经纬',
+        '前记者、编辑，曾任职人民日报《环球人物》、中新经纬',
     PROXIO_ABOUT_PHOTO_URL: '/images/themes-preview/aboutmeee.jpg',
     PROXIO_ABOUT_KEY_1: '经验年限',
     PROXIO_ABOUT_VAL_1: '5年+',
@@ -178,10 +178,12 @@ const CONFIG = {
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
     PROXIO_BRANDS: [
-        '商业文稿',
-        '公关文稿',
+        '行业研究',
+        '人物专访',
         '商业案例',
-        '市场营销'
+        '人文游记',
+        '品牌传播',
+        '文案内容'
     ],
 
     PROXIO_FOOTER_SLOGAN: '用文字体现意义，用创作带来价值',
